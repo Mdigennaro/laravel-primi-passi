@@ -21,5 +21,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    
+    $data = [
+        'squads' => ["Inter", "Juventus", "Milan"]
+    ];
+        
+    return view('home', $data);
+})-> name('home');
+
+Route::get('/Inter', function () {
+    
+    $data = [
+        'players' => ["Handanovic", "Skriniar", "Barella", "Sanchez", "Martinez"]
+    ];
+        
+    return view('inter', $data);
+})-> name('inter');
