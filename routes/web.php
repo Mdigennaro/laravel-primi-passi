@@ -37,3 +37,12 @@ Route::get('/Inter', function () {
         
     return view('inter', $data);
 })-> name('inter');
+
+Route::get('/Juventus', function () {
+    
+    $data = [
+        'players' => ["Sczesny", "Chiellini", "Locatelli", "Dybala", "Morata"]
+    ];
+        
+    return view('juventus', $data);
+})-> name('juventus');
