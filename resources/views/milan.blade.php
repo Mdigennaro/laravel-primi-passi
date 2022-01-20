@@ -9,19 +9,18 @@
 
   <style>
     img{
-      width: 190px;
+      width: 200px;
     }
   </style>
-
-  <title>Juventus</title>
+  <title>Milan</title>
 </head>
 <body>
 
   <div class="container p-3 d-flex align-items-center flex-column">
 
-    <h1 class=" display-1">JUVENTUS</h1>
+    <h1 class=" display-1">MILAN</h1>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juventus_FC_2017_icon_%28black%29.svg/1200px-Juventus_FC_2017_icon_%28black%29.svg.png" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png" alt="">
 
     <ul>
       @foreach ($players as $player)

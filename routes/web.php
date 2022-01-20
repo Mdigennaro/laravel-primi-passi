@@ -46,3 +46,12 @@ Route::get('/Juventus', function () {
         
     return view('juventus', $data);
 })-> name('juventus');
+
+Route::get('/Milan', function () {
+    
+    $data = [
+        'players' => ["Maignan", "Romagnoli", "Kessie", "Ibrahimovic", "Leao"]
+    ];
+        
+    return view('milan', $data);
+})-> name('milan');

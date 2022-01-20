@@ -24,7 +24,7 @@
       @foreach ($squads as $squad)
       
       <li class="nav-item">
-        <a class="nav-link" href="{{$squad}}">{{$squad}}</a>
+        <a class="nav-link" href="'route({{$squad}})'">{{$squad}}</a>
       </li>
       
       @endforeach
